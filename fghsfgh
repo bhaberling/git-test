@@ -1,0 +1,78 @@
+[33mcommit 175c9b971934728754082652dfae6232ab5e03f9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mgit-test/main[m[33m)[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Wed Aug 14 20:18:19 2024 -0400
+
+    Navbar and Breadcrumbs
+
+[33mcommit e49a2ba1b6e2363874c0477a5535cffa1742f39f[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Wed Aug 14 20:02:16 2024 -0400
+
+    additional file
+
+[33mcommit c211f7e694647c3b450cdb1c7229ef23273d50c0[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 20:48:45 2024 -0400
+
+    test doc
+
+[33mcommit 0e17ac46c13f4cc8821fc08f28c393e70c2bd038[m
+Merge: 8bfe155 e4dadb3
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 20:46:33 2024 -0400
+
+    Merge branch 'main' of https://github.com/bhaberling/git-test
+
+[33mcommit 8bfe1551dca8ed1693a562af8a115f3cf1c08008[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 20:38:49 2024 -0400
+
+    all the things part two electric boogaloo
+
+[33mcommit 7ef6e88d59c1572d8c6e6492f33a20d75a511320[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 20:33:02 2024 -0400
+
+    all the things
+
+[33mcommit 70ec59288fa36b03c47f0a0fda8d9959c31f08db[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 20:19:42 2024 -0400
+
+    Create About Us
+
+[33mcommit ab852159d099c0aa03d59488f6e086e8b16fad40[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Tue Aug 13 19:57:18 2024 -0400
+
+    styles
+
+[33mcommit b070196806c3c3a962a1886337232011dcfa7548[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Mon Aug 12 19:31:05 2024 -0400
+
+    bootstrap grid
+
+[33mcommit a1b2917f3372f9ac8e728382998f7fade5e8efca[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Mon Aug 12 18:36:12 2024 -0400
+
+    set up the home page
+
+[33mcommit e4dadb3be629099269e76794f5b956dce016361a[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Wed Aug 7 18:44:53 2024 -0400
+
+    Third commit
+
+[33mcommit 1a3eaf39591d502483e727444bbd66495ed35908[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Wed Aug 7 18:44:12 2024 -0400
+
+    Second commit
+
+[33mcommit 963dcb3c4df7d0ffa667dadad3a2faf78ce50531[m
+Author: Brieanna Haberling <brieanna.haberling@gmail.com>
+Date:   Wed Aug 7 18:42:10 2024 -0400
+
+    First commit
