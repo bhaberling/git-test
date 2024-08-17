@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
-
     <title>Nucamp: A Better Way To Camp</title>
 </head>
 
@@ -24,85 +26,134 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/img/logo.png" class="img-fluid" />
+                    <img src="img/logo.png" class="img-fluid" />
                 </div>
                 <div class="col">
                     <h1>Nucamp</h1>
+                    <div>
+                        <button class="btn btn-info text-light "> <a href="#reserveForm"></a> Reserve Campsite </button>
+                    </div>
                     <h2>a better way to camp</h2>
                 </div>
             </div>
         </div>
     </header>
 
-<!--navbar-->
+    <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/img/logo.png" height="30" width="30" /></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i> Home </a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa-solid fa-info fa-lg"></i> About </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites </a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-card fa-lg"></i> Contact </a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa-solid fa-info fa-lg"></i>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- main section -->
-    <main class="Container">
-    
-    	<!-- discover section -->
+    <!-- main content -->
+    <main class="container">
+
+        <!-- discover section -->
         <section class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 order-sm-last">
                 <h2 class="text-sm-end">Discover & Review</h2>
-            </div>  
+            </div>
             <div class="col">
                 <div class="d-flex">
-                    <img class="me-3 img-thumbnail" src="img//img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
+                    <img class="me-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
                     <div class="align-self-center">
                         <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
+                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your
+                            own reviews!</p>
                     </div>
                 </div>
             </div>
         </section>
 
-		<!-- feature section -->
+        <!-- feature section -->
         <section class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
             <div class="col">
-                <h3>React Lake Campground</h3>
-                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <div class="d-flex">
+                    <div class="align-self-center">
+                        <h3>React Lake Campground</h3>
+                        <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground
+                            on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                    </div>
+                    <img class="ms-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="Breadcrumb Trail" />
+                </div>
             </div>
         </section>
 
-		<!-- partner section -->
+        <!-- partner section -->
         <section class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 order-sm-last">
                 <h2 class="text-sm-end">Our Community Partners</h2>
             </div>
             <div class="col">
                 <div class="d-flex">
-                    <img class="me-3 img-thumbnail" src="img/img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
+                    <img class="me-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
                     <div class="align-self-center">
                         <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you
+                            can't beat.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        
 
-	</main>
+        <!--Form-->
+        <section class="row row-content">
+            <div class="col mx-auto col-sm-9">
+                <div class="card form-control">
+                    <h3 class="card-header text-white bg-info col-form-label" >Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form id="reserveForm">
+                            <div class="row mb-3">
+                                <div class="col-xs-12">
+                                    <label class="form-label" for="noc"> Number of Campers: </label>
+                                    <select class="noc" name="noc" id="noc">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-xs-12">
+                                    <label class="form-label" for="date" > Enter Date: </label>
+                                    <input class="date" class="form-control" name="date" id="date" type="date" placeholder="Select Date"> </input>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-xs-12">
+                                  <input type="submit" value="Search" class="btn btn-primary"> 
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!-- footer -->
+    <!--Footer-->
     <footer>
         <div class="container">
             <div class="row">
@@ -128,6 +179,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
 
     <!-- Bootstrap JavaScript plugins -->
