@@ -33,8 +33,6 @@ footer {
 .navbar{
     background-color: #901CAD;
 }
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+.accordion-button {
+    background-color: #d3d3d3;
+  }
